@@ -272,7 +272,7 @@ app = Flask(__name__)
 # ===========================
 # API Key
 # ===========================
-API_KEY = os.getenv("GROQ_API_KEY")
+API_KEY = os.getenv("GROQ_API_KEY", "").strip()
 
 if not API_KEY:
     raise RuntimeError("GROQ_API_KEY not found in environment variables.")
