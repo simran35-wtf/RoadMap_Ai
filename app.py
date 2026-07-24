@@ -163,8 +163,7 @@ except Exception as e:
 SUPPORTED_MODELS = [
     "llama-3.1-8b-instant",
     "llama-3.3-70b-versatile",
-    "meta-llama/llama-guard-4-12b",
-    "openai/gpt-oss-120b"
+    
 ]
 
 
